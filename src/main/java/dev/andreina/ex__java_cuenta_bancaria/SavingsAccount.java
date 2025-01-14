@@ -5,7 +5,7 @@ class SavingsAccount extends GeneralAccount{
     private boolean countActive;
 
     public SavingsAccount(float balance, float annualRate) {
-        super(balance, annualRate); // Llama al constructor de la clase padre (GeneralAccount), pasando el saldo y la tasa anual.
+        super(balance, annualRate); // supper: Llama al constructor de la clase padre (GeneralAccount), pasando el saldo y la tasa anual.
         updateAccountStatus();
     }
 
