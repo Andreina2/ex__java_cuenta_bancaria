@@ -31,3 +31,8 @@ La clase Cuenta tiene un constructor que inicializa los atributos saldo y tasa a
 - Consignar: invoca al método heredado. Si hay sobregiro, la cantidad consignada reduce el sobregiro.
 - Extracto mensual: invoca al método heredado.
 - Un nuevo método imprimir que retorna el saldo de la cuenta, la comisión mensual, el número de transacciones realizadas (suma de cantidad de consignaciones y retiros) y el valor de sobregiro.
+
+## Diagrama de clases
+
+![Diagrama de Clases](./diagram/ex_cuenta_bancaria_diagrama_de_clases.drawio.png)
+
