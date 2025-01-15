@@ -19,6 +19,20 @@ public class GeneralAccount {
         return balance;
     }
 
+    
+
+
+    public int getMonthlyCommission() {
+        return monthlyCommission;
+    }
+
+    
+
+
+    public void setMonthlyCommission(int monthlyCommission) {
+        this.monthlyCommission = monthlyCommission;
+    }
+
 
     //method consign amount money
     public void consingAmontMoney(float amount) {
@@ -48,6 +62,7 @@ public class GeneralAccount {
     public void monthlyStatement() {
         balance -= monthlyCommission;
         calculateMonthlyInterest();
+        //balance = Math.round(balance * 100) / 100f; // 100f: redondea saldo final
 
     }
 
