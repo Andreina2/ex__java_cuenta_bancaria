@@ -20,6 +20,9 @@ public class GeneralAccount {
     }
 
     
+    public float getAnnualRate() {
+        return annualRate;
+    }
 
 
     public int getMonthlyCommission() {
