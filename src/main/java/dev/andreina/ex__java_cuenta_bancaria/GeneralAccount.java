@@ -9,10 +9,16 @@ public class GeneralAccount {
 
 
     //constructor
-    public GeneralAccount(float balance, float annuaRate) {
+    public GeneralAccount(float balance, float annualRate) {
         this.balance = balance;
         this.annualRate = annualRate;
     }
+    
+    
+    public float getBalance() {
+        return balance;
+    }
+
 
     //method consign amount money
     public void consingAmontMoney(float amount) {
