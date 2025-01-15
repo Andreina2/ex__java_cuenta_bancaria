@@ -27,6 +27,9 @@ public class SavingsAccountTest {
 
     @Test
     void testPrintReturnAttributeValues() {
+        SavingsAccount savingsAccount= new SavingsAccount(5000, 4);
+        assertEquals(5000, savingsAccount.getBalance());
+        assertEquals(4, savingsAccount.getAnnualRate());
 
     }
 
