@@ -44,11 +44,13 @@ class SavingsAccount extends GeneralAccount{
     public void printReturnAttributeValues() {
         super.printReturnAttributeValues();
         System.out.println("Account Status: " + (countActive ? "Active" : "Inactive" ));
-    }
+    
 
     // cantidad de operaciones realizadas
     int totalTransactions = consigmentNumber + numbersOfDrawals;
-    System.out.println("Total transactions: " + totalTransactions);
+    System.out.println("Total transactions: "+ totalTransactions);
+}
+    
     
 
 }
