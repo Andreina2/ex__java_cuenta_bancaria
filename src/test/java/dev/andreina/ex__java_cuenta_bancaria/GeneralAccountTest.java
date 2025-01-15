@@ -42,6 +42,9 @@ public class GeneralAccountTest {
 
     @Test
     void testWithdrawAmountMoney() {
+        GeneralAccount generalAccount= new GeneralAccount(11000, 5);
+        generalAccount.withdrawAmountMoney(2000);
+        assertEquals(9000, generalAccount.getBalance(), 0.01);
 
     }
 }
